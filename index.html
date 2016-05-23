@@ -5,18 +5,14 @@
 		<meta name="author" content="Zofia Rusinowska">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-<script src="https://i.icomoon.io/public/temp/20e38b8d84/UntitledProject/svgxuse.js"></script>
-<script src="https://i.icomoon.io/public/temp/adf14ac1dc/UntitledProject/svgxuse.js"></script>
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-    <title></title>
+    <link rel="shortcut icon" href="img/zricon.ico"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <title>RUSINOWSKA</title>
 </head>
 <body>
-
-
       <nav>
           <a href="#" title="Przejdź do strony głownej"><img src="img/zr.svg" id="zr" alt="Logotyp ZR"></a>
-             <ul id="social">
+          <!----<ul id="social">
                <li><a href="https://www.linkedin.com/in/zofia-rusinowska-428310105?trk=hp-identity-photo" title="Przejdź">
                  <svg class="icon icon-linkedin2"><use xlink:href="#icon-linkedin2"></use></svg>
                </a></li>
@@ -32,68 +28,64 @@
                 <li><a href="https://www.instagram.com/rusinowska/">
                    <svg class="icon icon-instagram"><use xlink:href="#icon-instagram"></use></svg>
                 </a></li>
-             </ul>
+             </ul>---->
       </nav>
 
   <header>
-
-        <span id="intro">
-        <h1>Hello, my name is Zosia.</h1><br>
-        <h2>I'm young front-end developer and ...</h2>
-           <svg class="icon icon-embed2 iconm"><use xlink:href="#icon-embed2"></use></svg>
-         </span>
-    </header>
+  </header>
 
 
 
-     <div class="container" id="mainbox">
-        <div class="whitebox boxleft">
-          <h3>&#62; I love coding!</h3>
-          <ul>
-            <li>&#62; I know HTML5, CSS and jQuery</li>
-            <li>&#62; I'm rocking SCSS!</li>
-            <li>&#62; </li>
+     <div class="box" id="intro">
 
-          </ul>
+          <h1>Hello,<br>I'm Zosia.</h1>
+          <p> I'm young front-end developer<br>& web designer living in Cracow.</p>
+
+     </div>
+
+     <div class="container box" id="about">
+       <ul>
+         <li>
+           <h2>About me</h2>
+           <p>90’ kid born and raised in Cracow.</p>
+         </li>
+          <li>
+            <h2>Education</h2>
+            <p>Jagiellonian University in Cracow<br>Second Year of Electronic Information Processing.</p>
+          </li>
+           <li>
+             <h2>Work</h2>
+             <p>06.2015 –09.2015<br>Internship in advertising agency ”MOTIVE”<br>as graphic designer</p>
+           </li>
+       </ul>
+     </div>
+
+     <div class="box" id="space">
+       <div class="container">
+
+       </div>
+     </div>
+
+     <div class="container box" id="internship">
+       <p>I’m looking for a intership<br>to learn and learn (and learn)</p>
+       <p>or WORK! I would really like to work with You.</p>
+     </div>
+
+     <div class="container box" id="end">
+
         </div>
-
-
-           <div class="whitebox boxright">
-             <h3>&#62; I know Photoshop</h3>
-             <ul>
-               <li>&#62; I'm also familiar with Ilustrator and CorelDraw</li>
-               <li>&#62; I'm know basics of Indesign</li>
-               <li>&#62; </li>
-
-             </ul>
-           </div>
-
-      </div>
+        <h2>_ZOSIA RUSINOWSKA</h2>
+        <a href="#">zosia.rusinowska@gmail.com</a>
+        <a href="#">@rusinowska</a>
+        <p>Yeap I’m looking at YOU</p>
+    </div>
 
 <footer>
     <p>&copy; 2016 - RUSINOWSKA</p>
 </footer>
 
 <script>
-var pContainerHeight = $('header').height();
 
-$(window).scroll(function(){
-
-var wScroll = $(this).scrollTop();
-
-if (wScroll <= pContainerHeight) {
-
-  $('#intro').css({
-    'transform' : 'translate(0px, '+ wScroll /4 +'%)'
-  });
-
-
-
-  $('#hand').css({
-    'transform' : 'translate(0px, -'+ wScroll /40 +'%)'
-  });
-}
-});
 </script>
 
 </body>
