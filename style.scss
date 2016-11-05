@@ -21,7 +21,7 @@ html {
 }
 
 body {
-  font: 18px/1.4 $Arcon;
+  font: 18px/22px $Arcon;
 }
 
 .container {
@@ -45,11 +45,11 @@ h1, h2, h3, h4, h5, h6 {
 a {  color: inherit;}
 
 h1 {
-  font-size: 40px;
+  font-size: 3em;
   color: $carmel;
 
   @include tablet {
-    font-size: 120px;
+    font-size: 6.7em;
   }
 }
 
