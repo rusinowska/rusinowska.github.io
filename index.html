@@ -1,100 +1,18 @@
-<!DOCTYPE html>
-<html>
-    <head>
-		<meta charset="UTF-8">
-		<meta name="author" content="Zofia Rusinowska">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-<script src="https://i.icomoon.io/public/temp/20e38b8d84/UntitledProject/svgxuse.js"></script>
-<script src="https://i.icomoon.io/public/temp/adf14ac1dc/UntitledProject/svgxuse.js"></script>
+---
+layout: default
+---
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-    <title></title>
-</head>
-<body>
+<div class="posts">
+  {% for post in site.posts %}
+    <article class="post">
 
+      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
-      <nav>
-          <a href="#" title="Przejdź do strony głownej"><img src="img/zr.svg" id="zr" alt="Logotyp ZR"></a>
-             <ul id="social">
-               <li><a href="https://www.linkedin.com/in/zofia-rusinowska-428310105?trk=hp-identity-photo" title="Przejdź">
-                 <svg class="icon icon-linkedin2"><use xlink:href="#icon-linkedin2"></use></svg>
-               </a></li>
-                <li><a href="https://www.behance.net/rusinowska" id="">
-                    <svg class="icon icon-behance"><use xlink:href="#icon-behance"></use></svg>
-                </a></li>
-                <li><a href="#" id="">
-                    <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
-                </a></li>
-                <li><a href="#">
-                    <svg class="icon icon-google-plus"><use xlink:href="#icon-google-plus"></use></svg>
-                </a></li>
-                <li><a href="https://www.instagram.com/rusinowska/">
-                   <svg class="icon icon-instagram"><use xlink:href="#icon-instagram"></use></svg>
-                </a></li>
-             </ul>
-      </nav>
-
-  <header>
-
-        <span id="intro">
-        <h1>Hello, my name is Zosia.</h1><br>
-        <h2>I'm young front-end developer and ...</h2>
-           <svg class="icon icon-embed2 iconm"><use xlink:href="#icon-embed2"></use></svg>
-         </span>
-    </header>
-
-
-
-     <div class="container" id="mainbox">
-        <div class="whitebox boxleft">
-          <h3>&#62; I love coding!</h3>
-          <ul>
-            <li>&#62; I know HTML5, CSS and jQuery</li>
-            <li>&#62; I'm rocking SCSS!</li>
-            <li>&#62; </li>
-
-          </ul>
-        </div>
-
-
-           <div class="whitebox boxright">
-             <h3>&#62; I know Photoshop</h3>
-             <ul>
-               <li>&#62; I'm also familiar with Ilustrator and CorelDraw</li>
-               <li>&#62; I'm know basics of Indesign</li>
-               <li>&#62; </li>
-
-             </ul>
-           </div>
-
+      <div class="entry">
+        {{ post.excerpt }}
       </div>
 
-<footer>
-    <p>&copy; 2016 - RUSINOWSKA</p>
-</footer>
-
-<script>
-var pContainerHeight = $('header').height();
-
-$(window).scroll(function(){
-
-var wScroll = $(this).scrollTop();
-
-if (wScroll <= pContainerHeight) {
-
-  $('#intro').css({
-    'transform' : 'translate(0px, '+ wScroll /4 +'%)'
-  });
-
-
-
-  $('#hand').css({
-    'transform' : 'translate(0px, -'+ wScroll /40 +'%)'
-  });
-}
-});
-</script>
-
-</body>
-</html>
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+    </article>
+  {% endfor %}
+</div>
