@@ -31,6 +31,7 @@ body {
   width: 100%;
 }
 
+//----------------font stuff
 h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
   line-height: 1.7;
@@ -110,6 +111,11 @@ strong, b {
 
 img {
   max-width: 100%;
+}
+
+img#me-photo{
+  max-width:80%;
+  height:auto;
 }
 
 // Fixes images in popup boxes from Google Translate
