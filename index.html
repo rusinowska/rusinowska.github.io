@@ -1,8 +1,17 @@
 ---
 layout: default
 ---
+<section id="intro" class="section">
 
-<div class="posts">
+  <img src="images/zosia.jpg" alt="It's me">
+
+</section>
+
+<section id="about" class="section">
+
+</section>
+
+<section id="portfolio" class="section">
   {% for post in site.posts %}
     <article class="post">
 
@@ -15,4 +24,8 @@ layout: default
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
     </article>
   {% endfor %}
-</div>
+</section>
+
+<section id="contact" class="section">
+{% include svg-icons.html %}
+</section>
