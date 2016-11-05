@@ -13,11 +13,23 @@ $darkGray: #333;
 $gray: #666;
 $lightGray: #eee;
 $white: #fff;
+$carmel: #b38f39;
+$back: #d6d6d6;
+$shadow: #f4f4f4;
+
+
 
 // Font stacks
 $helvetica: Helvetica, Arial, sans-serif;
 $helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $georgia: Georgia, serif;
+
+@font-face {
+  font-family: 'Arcon-Regular';
+  src: url('../fonts/Arcon-Regular.otf');
+}
+
+$Arcon: 'Arcon-Regular';
 
 // Mobile breakpoints
 @mixin mobile {
