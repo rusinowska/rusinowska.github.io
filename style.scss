@@ -296,6 +296,7 @@ img {
 
   h3{
     line-height: 0.9;
+    
     @include tablet {
       font-size:2em;
     }
