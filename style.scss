@@ -22,7 +22,7 @@ html {
 
 body {
   font: 16px/18px $Arcon;
-  overflow: hidden;
+  overflow-x: hidden;
 
   @include tablet{
     font: 18/22px;
@@ -242,9 +242,7 @@ img {
       margin: 0 auto 2em 0;
     }
   }
-  #about-text{
-
-  }
+  #about-text{}
   a{
     display:block;
     color: $shadow !important;
