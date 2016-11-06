@@ -334,6 +334,15 @@ img {
 //
 #contact {
 
+  h3{
+    line-height: 0.9;
+    font-size:1em;
+
+    @include tablet {
+      font-size:5em;
+    }
+  }
+
 }//-----------------------end of #contact
 
 
