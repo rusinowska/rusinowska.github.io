@@ -214,10 +214,15 @@ img {
   p{
     display:inline-block;
     font-size:1.5em;
-    width:500px;
+    width:90%;
     text-align: justify;
     text-align-last: left;
     margin: 0 auto;
+
+    @include tablet{
+      max-width:500px;
+      width:100%;
+    }
   }
   #about-text{
 
