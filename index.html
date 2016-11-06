@@ -66,13 +66,11 @@ layout: default
     </div>
 
 
-        <div class="slider js_slider">
-    <div class="frame js_frame">
-        <ul class="slides js_slides">
+        <ul id="lightSlider">
 
             {% for post in site.posts %}
 
-                <li class="js_slide">
+                <li>
                   <article>
                   <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
                   <img src="{{ site.url }}{{ post.image }}" alt="{{ post.title }}">
@@ -83,8 +81,6 @@ layout: default
             {% endfor %}
 
             </ul>
-        </div>
-    </div>
 
 
 </section>
