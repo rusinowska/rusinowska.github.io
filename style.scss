@@ -211,6 +211,10 @@ img {
     border:solid 2px $shadow;
     padding:10px;
     text-decoration: none;
+
+    @include tablet{
+      font-size:1.2em;
+    }
   }
 }//-----------------------end of #about
 
