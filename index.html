@@ -70,10 +70,16 @@ layout: default
 
             {% for post in site.posts %}
 
-                <li>
+                <li class="post">
                   <a href="{{ site.url }}{{ post.link }}">
-                  {{ post.title }}
+
                   <img src="{{ site.url }}{{ post.image }}" alt="{{ post.title }}">
+
+                  <div class="row-right flex-row box-with-line">
+                    <h4>{{ post.title }}</h4>
+                    <div class="line"></div>
+                  </div>
+
                   </a>
                 </li>
 
