@@ -279,6 +279,23 @@ img {
 
 }//-----------------------end of #about
 
+//
+// PORFOLIO
+//
+#portfolio{
+
+  h3{
+    line-height: 0.9;
+  }
+
+  .box-with-line{
+    .line{
+      margin-top: 7em;
+    }
+  }
+
+}//-----------------------end of #portfolio
+
 
 footer {
   padding: 20px 0;
