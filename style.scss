@@ -239,6 +239,7 @@ img {
     padding:10px;
     text-decoration: none;
     transition: padding 1s ease;
+    box-sizing:border-box;
 
     :hover{
       padding:20px;
