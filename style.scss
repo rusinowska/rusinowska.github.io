@@ -232,6 +232,14 @@ img {
 // ABOUT
 //
 #about{
+  h3{
+    .shadow{
+      font: 1.2;
+    }
+    #name{
+      margin: -.5em 0 0 2em;
+    }
+  }
   a{
     color: $shadow !important;
     border:solid 2px $shadow;
