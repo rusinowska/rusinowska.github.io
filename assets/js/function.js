@@ -3,6 +3,6 @@ $(document).ready(function() {
        item:1,
        loop:true,
        slideMove:0,
-       pager:false;
+       pager:true
    });
  });
