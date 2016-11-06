@@ -29,6 +29,7 @@ body {
   max-width: 740px;
   padding: 0 10px;
   width: 100%;
+  height:auto;
 
   @include tablet{
     max-width: 1000px;
@@ -182,7 +183,7 @@ img {
 
 h1 {
   font-size: 3em;
-  margin-left:15%;
+  margin-left:20%;
   color: $carmel;
 
     span{
