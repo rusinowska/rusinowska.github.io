@@ -81,7 +81,7 @@ layout: default
                 </div>
 
             {% endfor %}
-            
+
         </div>
         <!-- If we need pagination -->
         <div class="swiper-pagination"></div>
@@ -109,14 +109,11 @@ layout: default
 </section>
 
 <script>
-  window.onload = function () {
+  $(document).ready(function () {
       var mySwiper = new Swiper ('.swiper-container', {
         // Optional parameters
         direction: 'vertical',
         loop: true,
-
-        // If we need pagination
-        pagination: '.swiper-pagination',
 
         // Navigation arrows
         nextButton: '.swiper-button-next',
@@ -125,5 +122,5 @@ layout: default
         // And if we need scrollbar
         scrollbar: '.swiper-scrollbar',
       })
-   };
+   });
   </script>
