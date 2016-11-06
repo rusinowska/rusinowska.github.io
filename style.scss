@@ -198,13 +198,20 @@ img {
 #about{
   h3{
     .shadow{
-      font-size: 1.2em;
+      font-size: 2.2em;
+      font-weight: bold;
     }
     #name{
       font-size: 0.8em;
       position:relative;
-      margin-left:2em;
+      margin-left:4em;
       top: -1em;
+      color: black
+
+    }
+    p{
+      font-size:1.5em;
+      width:500px;
 
     }
   }
