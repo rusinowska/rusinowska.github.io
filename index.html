@@ -65,18 +65,33 @@ layout: default
             <div class="line"></div>
     </div>
 
-  {% for post in site.posts %}
-    <article class="post">
+        <!-- Slider main container -->
+    <div class="swiper-container">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            {% for post in site.posts %}
+            <article class="post">
+                <div class="swiper-slide">
+                  <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+                  {{ post.excerpt }}
+                </div>
+            </article>
+            {% endfor %}
+            ...
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
 
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
+    </div>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
+
 </section>
 
 <section id="contact" class="section container">
@@ -89,3 +104,23 @@ layout: default
         <input type="text" placeholder="Wiadomość">
       </form>
 </section>
+
+<script>
+  window.onload = function () {      
+      var mySwiper = new Swiper ('.swiper-container', {
+        // Optional parameters
+        direction: 'vertical',
+        loop: true,
+
+        // If we need pagination
+        pagination: '.swiper-pagination',
+
+        // Navigation arrows
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+
+        // And if we need scrollbar
+        scrollbar: '.swiper-scrollbar',
+      })
+   };
+  </script>
