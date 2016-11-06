@@ -47,7 +47,14 @@ body {
 .flex-center{
   display: flex;
 }
-
+.flex-row{
+  display: flex;
+  flex-direction: row;
+}
+.flex-column{
+  display: flex;
+  flex-direction: column;
+}
 .shadow{
   color: $shadow !important;
 }
@@ -190,7 +197,7 @@ img {
 
   h1 {
     font-size: 3em;
-    margin-left:30%;
+    margin-left:28%;
     color: $carmel;
 
       span{
@@ -210,20 +217,27 @@ img {
   h2{
     text-align:left;
     float:right;
+    font: 1.2em/1.2;
     #krakowianka{
       color: $carmel;
+    }
+    @include tablet{
+      line-height: 2.5em/1.4;
     }
   }
 
 }//-----------------------end of #intro
 
+//
+// ABOUT
+//
 #about{
   a{
     color: $shadow !important;
     border:solid 2px $shadow;
     padding:10px;
   }
-}
+}//-----------------------end of #about
 
 
 footer {
