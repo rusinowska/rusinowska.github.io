@@ -65,33 +65,25 @@ layout: default
             <div class="line"></div>
     </div>
 
-        <!-- Slider main container -->
-    <div class="swiper-container">
-        <!-- Additional required wrapper -->
-        <div class="swiper-wrapper">
-            <!-- Slides -->
+
+        <div class="slider js_slider">
+    <div class="frame js_frame">
+        <ul class="slides js_slides">
+
             {% for post in site.posts %}
 
-                <div class="swiper-slide">
+                <li class="js_slide">
                   <article>
                   <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
                   <img src="{{ site.url }}{{ post.image }}" alt="{{ post.title }}">
                   {{ post.excerpt }}
                   </article>
-                </div>
+                </li>
 
             {% endfor %}
 
+            </ul>
         </div>
-        <!-- If we need pagination -->
-        <div class="swiper-pagination"></div>
-
-        <!-- If we need navigation buttons -->
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
-
-        <!-- If we need scrollbar -->
-        <div class="swiper-scrollbar"></div>
     </div>
 
 
