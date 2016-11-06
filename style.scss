@@ -217,13 +217,13 @@ img {
   }
   p{
     display:inline-block;
-    font-size:1.5em;
     width:90%;
     text-align: justify;
     text-align-last: left;
     margin: 0 auto 1em 0;
 
     @include tablet{
+      font-size:1.5em;
       max-width:500px;
       width:100%;
       margin: 0 auto 2em 0;
