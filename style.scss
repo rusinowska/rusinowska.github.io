@@ -196,10 +196,14 @@ img {
 #about{
   h3{
     .shadow{
-      font: 1.2;
+      font-size: 1.2;
     }
     #name{
-      margin: -.5em 0 0 2em;
+      font-size: 0.2;
+      position:relative;
+      margin-left:2em;
+      top: -1em;
+
     }
   }
   a{
