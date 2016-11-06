@@ -38,6 +38,9 @@
     <script type="text/javscript" src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.0/js/swiper.jquery.js"></script>
     <script type="text/javscript" src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.0/js/swiper.jquery.min.js"></script>
 
+    <script type="text/javscript" src="https://cdnjs.cloudflare.com/ajax/libs/lory.js/2.2.0/lory.min.js"></script>
+    <script type="text/javscript" src="https://cdnjs.cloudflare.com/ajax/libs/lory.js/2.2.0/jquery.lory.min.js"></script>
+
     <script type="text/javscript">
       $(document).ready(function() {
           var mySwiper = new Swiper ('.swiper-container', {
@@ -51,7 +54,16 @@
 
             // And if we need scrollbar
             scrollbar: '.swiper-scrollbar',
-          })
+          });
+          var lory = require('lory.js').lory;
+
+
+        var slider = document.querySelector('.js_slider');
+
+        lory(slider, {
+            // options going here
+        });
+        
        });
       </script>
 
