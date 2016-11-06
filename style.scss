@@ -42,7 +42,7 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.4;
   }
 }
-a {  color: inherit;}
+a {  color: white;}
 
 h1 {
   font-size: 3em;
@@ -67,8 +67,12 @@ h2 {
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 2em;
     color: $carmel;
+
+    @include tablet {
+      font-size: 6em;
+    }
 }
 
 h4 {
