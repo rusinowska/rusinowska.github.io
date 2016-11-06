@@ -259,7 +259,13 @@ img {
 
   .box-with-line{
       .line{
-        color: $carmel;
+        background: $carmel;
+        position:relative;
+        top:-2em;
+
+        @include tablet {
+          top:0;
+        }
       }
       @include tablet {
         display:flex;
