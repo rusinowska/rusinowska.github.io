@@ -185,10 +185,10 @@ h1 {
     #letter-z, #letter-e, #letter-s, #letter-c{
       position:relative;
     }
-    #letter-z{  top:0.5em; left: -0.2em;}
-    #letter-e{top:0em; left: -0.2em;}
-    #letter-s{top:0.7em; left: -0.2em;}
-    #letter-c{top:0.5em; left: -0.2em;}
+    #letter-z{  top:0.5em; left: -0.3em;}
+    #letter-e{top:0em; left: -0.5em;}
+    #letter-s{top:0.7em; left: -0.7em;}
+    #letter-c{top:0.5em; left: -0.9em;}
 
   @include tablet {
     font-size: 8em;
