@@ -360,9 +360,15 @@ img {
 
     input{
       background:transparent;
+      width:90%;
+      padding:1em 0.5em;
       -webkit-box-shadow: 0px 10px 0px 0px rgba(179,143,57,1);
       -moz-box-shadow: 0px 10px 0px 0px rgba(179,143,57,1);
       box-shadow: 0px 10px 0px 0px rgba(179,143,57,1);
+
+      @include tabet{
+        width:410px;
+      }
       ::placeholder{
         color: $carmel;
         font-size:1em;
