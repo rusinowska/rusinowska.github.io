@@ -167,13 +167,14 @@ img {
 #intro{
 
   img#me-photo{
-    max-width:100%;
+    max-width:120%;
     height:auto;
     overflow:hidden;
     margin-left:-20%;
-    margin-top:-5em;
+    margin-top:-3em;
     @include tablet{
       max-width:80%;
+      margin-top:-5em;
       margin-left:-18%;
 
     }
