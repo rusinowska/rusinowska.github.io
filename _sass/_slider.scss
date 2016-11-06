@@ -17,8 +17,13 @@
 
     a{ display: block;}
     img{
-      max-height: 80%;
+      max-height: 300px;
+      height:70%;
       width: auto;
+      margin: 1em auto;
+      @include tablet {
+        max-height: 500px;
+      }
     }
   }
 
