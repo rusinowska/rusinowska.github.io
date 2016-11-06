@@ -55,14 +55,14 @@
             // And if we need scrollbar
             scrollbar: '.swiper-scrollbar',
           });
-          var lory = require('lory.js').lory;
 
+          'use strict';
 
-        var slider = document.querySelector('.js_slider');
-
-        lory(slider, {
-            slidesToScroll: 1
+    $(function() {
+        $('.js_slider').lory({
+            infinite: 1
         });
+    });
 
        });
       </script>
