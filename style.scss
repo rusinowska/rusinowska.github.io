@@ -182,16 +182,16 @@ img {
 
 h1 {
   font-size: 3em;
-  margin-left:30%;
+  margin-left:15%;
   color: $carmel;
 
     span{
       position:relative;
     }
-    #letter-z{  top:0.5em; left: -0.3em;}
-    #letter-e{top:0em; left: -0.5em;}
-    #letter-s{top:0.7em; left: -0.7em;}
-    #letter-c{top:0.5em; left: -0.9em;}
+    #letter-z{  top:0.5em; left: -0.4em;}
+    #letter-e{top:0em; left: -0.6em;}
+    #letter-s{top:0.7em; left: -0.8em;}
+    #letter-c{top:0.5em; left: -1em;}
 
   @include tablet {
     font-size: 9em;
