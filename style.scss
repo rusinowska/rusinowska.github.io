@@ -88,7 +88,8 @@ h3 {
     color: $carmel;
 
     @include tablet {
-      font-size: 4em;
+      font-size: 3em;
+      font-weight: bold;
     }
 }
 
@@ -211,14 +212,14 @@ img {
   h3{
 
     .shadow{
-      font-size: 2.3em;
-      font-weight: bold;
+      font-size: 3em;
       @include tablet{
 
       }
     }
     #name{
       font-size: 1.2em;
+      font-weight: normal;
       position:relative;
       margin-left:4em;
       top: -1em;
