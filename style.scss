@@ -31,6 +31,9 @@ body {
   width: 100%;
 }
 
+.shadow{
+  color: $shadow !important;
+}
 //----------------font stuff
 h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
@@ -44,23 +47,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 a {  color: white;}
 
-h1 {
-  font-size: 3em;
-  color: $carmel;
 
-    *{
-      position:relative;
-      left:0;
-    }
-    #letter-z{top:0.5em}
-    #letter-e{top:0em}
-    #letter-s{top:0.7em}
-    #letter-c{top:0.5em}
-
-  @include tablet {
-    font-size: 8em;
-  }
-}
 
 h2 {
   font-size: 24px;
@@ -126,10 +113,7 @@ img {
   max-width: 100%;
 }
 
-img#me-photo{
-  max-width:80%;
-  height:auto;
-}
+
 
 // Fixes images in popup boxes from Google Translate
 .gmnoprint img {
@@ -168,30 +152,38 @@ img#me-photo{
 /*********************/
 
 //
-// .masthead
+// intro
 //
 
-.wrapper-masthead {
-  margin-bottom: 50px;
+#intro{
+
+  img#me-photo{
+    max-width:80%;
+    height:auto;
+    @media tablet{
+      max-width:80%;
+    }
+  }
+
 }
 
-.masthead {
-  padding: 20px 0;
-  border-bottom: 1px solid $lightGray;
+h1 {
+  font-size: 3em;
+  color: $carmel;
 
+    *{
+      position:relative;
+      left:0;
+    }
+    #letter-z{top:0.5em}
+    #letter-e{top:0em}
+    #letter-s{top:0.7em}
+    #letter-c{top:0.5em}
 
+  @include tablet {
+    font-size: 8em;
+  }
 }
-
-.site-name {
-  margin: 0;
-  color: $darkGray;
-  cursor: pointer;
-  font-family: $helveticaNeue;
-  font-weight: 300;
-  font-size: 28px;
-  letter-spacing: 1px;
-}
-
 
 //
 // .main
