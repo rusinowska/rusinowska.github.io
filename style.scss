@@ -29,6 +29,14 @@ body {
   max-width: 740px;
   padding: 0 10px;
   width: 100%;
+
+  @media tablet{
+    max-width: 1000px;
+  }
+}
+
+.flex-center{
+  display: flex;
 }
 
 .shadow{
