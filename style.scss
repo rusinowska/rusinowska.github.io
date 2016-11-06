@@ -77,7 +77,7 @@ h3 {
     color: $carmel;
 
     @include tablet {
-      font-size: 6em;
+      font-size: 4em;
     }
 }
 
@@ -184,7 +184,7 @@ img {
     @include tablet{
       position:relative;
       float:right;
-      line-height: 2.5em/1.4;
+      line-height: 1.4;
     }
   }
 
