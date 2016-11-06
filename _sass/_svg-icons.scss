@@ -21,6 +21,8 @@
     overflow:hidden;
     margin:0; padding:1em 0;
     list-style:none;
+    float:right;
+    margin-right:2em;
 }
 
 .soc li {
@@ -57,22 +59,35 @@
     display:block;
     position: relative;
     z-index: 1;
-    width: 56px;
-    height: 56px;
-    line-height: 56px;
-    font-size: 30px;
+
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 19px;
     -webkit-border-radius: 100px;
     -moz-border-radius: 100px;
     border-radius: 100px;
-    margin-right: 23px;
+    margin-right: 5px;
+
+
     color: #ffffff;
     background-color: #25262a;
+
+    @include tablet {
+      width: 56px;
+      height: 56px;
+      line-height: 56px;
+      font-size: 30px;
+      margin-right: 23px;
+    }
 }
 
 .soc a:hover {
+    @include tablet {
     z-index: 2;
     -webkit-transform: translateY(-5px);
     transform: translateY(-5px);
+  }
 }
 .soc-icon-last{
     margin:0 !important;
