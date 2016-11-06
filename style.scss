@@ -40,6 +40,10 @@ body {
   }
 }
 
+.row{
+  padding: 0 10px;
+}
+
 .flex-center{
   display: flex;
 }
@@ -58,7 +62,7 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.4;
   }
 }
-a {  color: $shadow !important;}
+
 
 
 
@@ -213,6 +217,13 @@ img {
 
 }//-----------------------end of #intro
 
+#about{
+  a{
+    color: $shadow !important;
+    border:solid 2px $shadow;
+    padding:10px;
+  }
+}
 
 
 footer {
