@@ -170,7 +170,7 @@ img {
     height:auto;
     overflow:hidden;
     margin-left:-20%;
-    margin-top:-2em;
+    margin-top:-5em;
     @include tablet{
       max-width:80%;
       margin-left:-10%;
@@ -185,7 +185,7 @@ h1 {
   margin-left:30%;
   color: $carmel;
 
-    #letter-z, #letter-e, #letter-s, #letter-c{
+    span{
       position:relative;
     }
     #letter-z{  top:0.5em; left: -0.3em;}
