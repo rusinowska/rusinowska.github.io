@@ -326,6 +326,11 @@ img {
     }
   }
 
+  .box-with-line{
+    position:relative;
+    top:-5em;
+  }
+
 
 }//-----------------------end of #portfolio
 
@@ -333,6 +338,8 @@ img {
 // CONTACT
 //
 #contact {
+
+  margin-left:1em;
 
   h3{
     line-height: 0.9;
@@ -343,6 +350,10 @@ img {
     }
 
     .shadow{margin-left:1em;}
+  }
+
+  form{
+    margin: 1em 0;
   }
 
 }//-----------------------end of #contact
