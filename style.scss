@@ -216,12 +216,13 @@ img {
 
   h2{
     text-align:left;
-    float:right;
     font: 1.2em;
     #krakowianka{
       color: $carmel;
     }
     @include tablet{
+      position:relative;
+      float:right;
       line-height: 2.5em/1.4;
     }
   }
