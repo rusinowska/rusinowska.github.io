@@ -50,6 +50,7 @@ h1 {
 
     :nth-child(n){
       position:relative;
+      left:0;
     }
     #letter-z{top:0.5em}
     #letter-e{top:0em}
@@ -57,7 +58,7 @@ h1 {
     #letter-c{top:0.6em}
 
   @include tablet {
-    font-size: 6.7em;
+    font-size: 8em;
   }
 }
 
