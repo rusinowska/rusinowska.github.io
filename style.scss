@@ -30,7 +30,7 @@ body {
   padding: 0 10px;
   width: 100%;
 
-  @media tablet{
+  @include tablet{
     max-width: 1000px;
   }
 }
@@ -170,8 +170,8 @@ img {
     height:auto;
     overflow:hidden;
     margin-left:-20%;
-    @media tablet{
-      max-width:80%;
+    @include tablet{
+      max-width:70%;
       margin-left:-30%;
     }
   }
