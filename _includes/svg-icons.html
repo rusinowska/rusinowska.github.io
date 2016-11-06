@@ -1,14 +1,23 @@
 <ul class="soc">
 
 {% if site.footer-links.facebook %}
-<a href="https://www.facebook.com/{{ site.footer-links.facebook }}" class="soc-facebook"></a>{% endif %}
+<li>
+  <a href="https://www.facebook.com/{{ site.footer-links.facebook }}" class="soc-facebook"></a>{% endif %}
+</li>
 {% if site.footer-links.instagram %}
-<a href="https://instagram.com/{{ site.footer-links.instagram }}" class="soc-instagram"></a>{% endif %}
+<li>
+  <a href="https://instagram.com/{{ site.footer-links.instagram }}" class="soc-instagram"></a>{% endif %}
+</li>
 {% if site.footer-links.linkedin %}
-<a href="https://www.linkedin.com/in/{{ site.footer-links.linkedin }}" class="soc-linkedin"></a>{% endif %}
-  {% if site.footer-links.behance %}
+<li>
+  <a href="https://www.linkedin.com/in/{{ site.footer-links.linkedin }}" class="soc-linkedin"></a>{% endif %}
+</li>
+{% if site.footer-links.behance %}
+<li>
   <a href="https://behance.net/{{ site.footer-links.behance }}" class="soc-behance"></a>{% endif %}
+</li>
 {% if site.footer-links.github %}
+<li>
   <a href="https://github.com/{{ site.footer-links.github }}" class="soc-github soc-icon-last"></a>{% endif %}
-
+</li>
 </ul>
