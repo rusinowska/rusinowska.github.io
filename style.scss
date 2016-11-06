@@ -212,10 +212,15 @@ img {
     }
   }
   p{
+    display:inline-block;
     font-size:1.5em;
     width:500px;
     text-align: justify;
     text-align-last: left;
+    margin: 0 auto;
+  }
+  #about-text{
+
   }
   a{
     color: $shadow !important;
