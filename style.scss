@@ -212,9 +212,9 @@ img {
   h3{
 
     .shadow{
-      font-size: 3em;
+      font-size: 2em;
       @include tablet{
-
+        font-size: 3em;
       }
     }
     #name{
@@ -273,7 +273,7 @@ img {
         @include tablet {
           top:0;
           font-size:4em;
-          margin-top: 1.8em;
+          margin-top: 1.3em;
         }
       }
       @include tablet {
