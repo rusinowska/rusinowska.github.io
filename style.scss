@@ -180,6 +180,7 @@ img {
     font-size: 1.2em;
     #krakowianka{
       color: $carmel;
+      font-weight: bold;
     }
     @include tablet{
       position:relative;
@@ -214,7 +215,7 @@ img {
       width:500px;
       text-align: justify;
       text-align-last: left;
-      
+
 
     }
   }
