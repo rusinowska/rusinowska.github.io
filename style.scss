@@ -252,7 +252,7 @@ img {
       padding:20px;
     }
 
-    @include tablet{
+    @include tablet {
       font-size:1.2em;
     }
   }
@@ -260,6 +260,10 @@ img {
   .box-with-line{
       .line{
         color: $carmel;
+      }
+      @include tablet {
+        display:flex;
+        flex-direction: row;
       }
   }
 
