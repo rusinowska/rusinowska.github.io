@@ -73,7 +73,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 h3 {
-  font-size: 2em;
+  font-size: 1.5em;
     color: $carmel;
 
     @include tablet {
@@ -198,9 +198,13 @@ img {
 //
 #about{
   h3{
+
     .shadow{
       font-size: 2.2em;
       font-weight: bold;
+      @include tablet{
+
+      }
     }
     #name{
       font-size: 1.2em;
