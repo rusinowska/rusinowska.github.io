@@ -261,11 +261,13 @@ img {
       .line{
         background: $carmel;
         position:relative;
+
         top:-2em;
 
 
         @include tablet {
           top:0;
+          font-size:4em;
           margin-top: 1em;
         }
       }
