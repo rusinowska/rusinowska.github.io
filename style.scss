@@ -66,10 +66,12 @@ body {
 
 .line{
   width:100%;
-  height:10px;
+  height:5px;
   background: white;
   overflow: hidden;
   margin-left:10px;
+
+  @include tablet { height:10px;}
 }
 //----------------font stuff
 h1, h2, h3, h4, h5, h6 {
@@ -220,9 +222,16 @@ img {
       font-size: 1.2em;
       font-weight: normal;
       position:relative;
-      margin-left:4em;
       top: -1em;
-      color: black
+      color: black;
+      text-align: right;
+      margin-left: 2em;
+
+      @include tablet {
+        text-align: left;
+        margin-left:4em;
+
+      }
 
     }
   }
@@ -291,8 +300,12 @@ img {
 
   .box-with-line{
     .line{
-      margin-top: 7em;
-      margin-left: -4em;
+      margin-top: 3em;
+      margin-left: -1em;
+      @include tablet {
+        margin-top: 7em;
+        margin-left: -4em;
+      }
     }
   }
 
