@@ -40,24 +40,40 @@
     -ms-box-sizing:border-box;
     -o-box-sizing:border-box;
     box-sizing:border-box;
+
+    -o-transition:.1s;
+    -ms-transition:.1s;
+    -moz-transition:.1s;
+    -webkit-transition:.1s;
+    transition:.1s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+
     overflow:hidden;
     text-decoration:none;
     text-align:center;
     display:block;
     position: relative;
     z-index: 1;
-    width: 76px;
-    height: 76px;
-    line-height: 76px;
-    font-size: 41px;
+    width: 56px;
+    height: 56px;
+    line-height: 56px;
+    font-size: 30px;
     -webkit-border-radius: 100px;
     -moz-border-radius: 100px;
     border-radius: 100px;
-    margin-right: 10px;
+    margin-right: 23px;
     color: #ffffff;
-    background-color: #332f2f;
+    background-color: #25262a;
 }
 
+.soc a:hover {
+    z-index: 2;
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+}
 .soc-icon-last{
     margin:0 !important;
 }
