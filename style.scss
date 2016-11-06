@@ -170,9 +170,11 @@ img {
     height:auto;
     overflow:hidden;
     margin-left:-20%;
+    margin-top:-2em;
     @include tablet{
       max-width:80%;
       margin-left:-10%;
+
     }
   }
 
