@@ -42,27 +42,12 @@
     <script type="text/javscript" src="https://cdnjs.cloudflare.com/ajax/libs/lory.js/2.2.0/jquery.lory.min.js"></script>
 
     <script type="text/javscript">
-      $(document).ready(function() {
-          var mySwiper = new Swiper ('.swiper-container', {
-            // Optional parameters
-            direction: 'vertical',
-            loop: true,
+      $(document).addEventListener('DOMContentLoaded', function () {
+        var simple = document.querySelector('.js_simple');
 
-            // Navigation arrows
-            nextButton: '.swiper-button-next',
-            prevButton: '.swiper-button-prev',
-
-            // And if we need scrollbar
-            scrollbar: '.swiper-scrollbar',
-          });
-
-          'use strict';
-
-    $(function() {
-        $('.js_slider').lory({
+        lory(simple, {
             infinite: 1
         });
-    });
 
        });
       </script>
