@@ -71,12 +71,14 @@ layout: default
         <div class="swiper-wrapper">
             <!-- Slides -->
             {% for post in site.posts %}
-            <article class="post">
+
                 <div class="swiper-slide">
+                  <article>
                   <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
                   {{ post.excerpt }}
+                  </article>
                 </div>
-            </article>
+
             {% endfor %}
             ...
         </div>
@@ -106,7 +108,7 @@ layout: default
 </section>
 
 <script>
-  window.onload = function () {      
+  window.onload = function () {
       var mySwiper = new Swiper ('.swiper-container', {
         // Optional parameters
         direction: 'vertical',
