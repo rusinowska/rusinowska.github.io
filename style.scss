@@ -339,7 +339,10 @@ img {
 //
 #contact {
 
-  margin:0 2em;
+
+  @include tablet {
+      margin:0 4em;
+  }
 
   h3{
     line-height: 0.9;
