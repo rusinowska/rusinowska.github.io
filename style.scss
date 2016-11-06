@@ -36,7 +36,7 @@ body {
   height:auto;
 
   @include tablet{
-    max-width: 1000px;
+    max-width: 1100px;
   }
 }
 
@@ -185,6 +185,8 @@ img {
       position:relative;
       float:right;
       line-height: 1.4;
+      font-size: 2.2em;
+      margin: -10em 0 0 12em;
     }
   }
 
