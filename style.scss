@@ -288,15 +288,17 @@ img {
       }
   }
 
-  ul li{
-    .year, .head{
-      font-weight:bold;
-    }
-    .year, .expr{
-      padding:1em;
+  ul{
+    float:right;
+    li{
+      .year, .head{
+        font-weight:bold;
+      }
+      .year, .expr{
+        padding:1em;
+      }
     }
   }
-
 }//-----------------------end of #about
 
 //
