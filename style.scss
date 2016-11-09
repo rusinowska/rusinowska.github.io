@@ -291,12 +291,14 @@ img {
   ul{
     float:right;
     li{
+      align-items:flex-start;
       .year, .head{
         font-weight:bold;
       }
       .year, .expr{
         padding:1em;
       }
+
     }
   }
 }//-----------------------end of #about
