@@ -378,21 +378,25 @@ img {
     }
     ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
       color: $carmel;
+      font-size:1.2em;
     }
     ::-moz-placeholder { /* Firefox 19+ */
       color: $carmel;
+      font-size:1.2em;
     }
     :-ms-input-placeholder { /* IE 10+ */
       color: $carmel;
+      font-size:1.2em;
     }
     :-moz-placeholder { /* Firefox 18- */
       color: $carmel;
+      font-size:1.2em;
     }
 
     input{
       background:transparent;
       width:90%;
-      padding:1em 0.5em;
+      padding:0em 0.5em;
       border: none;
       margin-bottom:2em;
       -webkit-box-shadow: 0px 5px 0px 0px rgba(179,143,57,1);
