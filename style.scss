@@ -171,7 +171,7 @@ img {
   }
 
   h1 {
-    font-size: 3em;
+    font-size: 6em;
     margin-left:28%;
     color: $carmel;
 
@@ -200,10 +200,11 @@ img {
       position:relative;
       float:right;
       line-height: 1.4;
-      font-size: 2.4em;
+      font-size: 2em;
       margin: -9em 0 0 12em;
 
       @include desktop {
+      font-size: 2.4em;
       margin: -13em 0 0 12em;
       }
     }
