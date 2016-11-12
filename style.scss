@@ -462,6 +462,15 @@ img {
         -moz-box-shadow: none;
         padding:0;
         width:auto;
+        display:block;
+        color: $carmel;
+        border:solid 2px $carmel;
+        padding:10px;
+        font-size:1em;
+        text-decoration: none;
+        transition: padding 1s ease;
+        box-sizing:border-box;
+        cursor: pointer;
       }
 
   }
