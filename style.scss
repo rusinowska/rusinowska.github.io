@@ -429,15 +429,19 @@ img {
       color: $carmel;
       outline: none;
       font-size:1.2em;
-      -webkit-box-shadow: 0px 5px 0px 0px rgba(179,143,57,1);
-      -moz-box-shadow: 0px 5px 0px 0px rgba(179,143,57,1);
-      box-shadow: 0px 5px 0px 0px rgba(179,143,57,1);
+      -webkit-box-shadow: 0px 2px 0px 0px rgba(179,143,57,1);
+      -moz-box-shadow: 0px 2px 0px 0px rgba(179,143,57,1);
+      box-shadow: 0px 2px 0px 0px rgba(179,143,57,1);
 
-      @include tablet {
-        width:410px;
+        @include tablet {
+          width:410px;
+        }
       }
-
-    }
+      input:active, textarea:active {
+        -webkit-box-shadow: 0px 5px 0px 0px rgba(179,143,57,1);
+        -moz-box-shadow: 0px 5px 0px 0px rgba(179,143,57,1);
+        box-shadow: 0px 5px 0px 0px rgba(179,143,57,1);
+      }
   }
 
 }//-----------------------end of #contact
