@@ -420,7 +420,7 @@ img {
       color: $carmel;
     }
 
-    input, input:focus, input:active{
+    input, input:focus, input:active, textarea, textarea:focus, textarea:active{
       background:transparent;
       width:90%;
       padding:1em 0em 0em 0.5em;
