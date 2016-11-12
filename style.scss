@@ -311,6 +311,7 @@ img {
     float:right;
     font-size:1.1em;
     line-height: 1.1;
+    margin-bottom:2em;
     li{
       align-items:flex-start;
       justify-content: flex-start;
@@ -318,7 +319,7 @@ img {
           font-weight:bold;
         }
         .year, .expr{
-          padding:1em;
+          padding:0 1em;
         }
     }
     @include tablet {
