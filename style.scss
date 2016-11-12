@@ -294,12 +294,14 @@ img {
     line-height: 1.5;
     li{
       align-items:flex-start;
+      justify-content: flex-start;
       .year, .head{
         font-weight:bold;
       }
       .year, .expr{
         padding:1em;
       }
+
 
     }
   }
