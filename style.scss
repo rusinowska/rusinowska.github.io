@@ -325,6 +325,7 @@ img {
     @include tablet {
       font-size:1.5em;
       flex-direction: row;
+      justify-content: flex-end;
     }
   }
 }//-----------------------end of #about
