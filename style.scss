@@ -429,6 +429,8 @@ img {
       color: $carmel;
       outline: none;
       font-size:1.2em;
+      resize: none;
+      overflow: auto;
       -webkit-box-shadow: 0px 2px 0px 0px rgba(179,143,57,1);
       -moz-box-shadow: 0px 2px 0px 0px rgba(179,143,57,1);
       box-shadow: 0px 2px 0px 0px rgba(179,143,57,1);
@@ -442,6 +444,7 @@ img {
         -moz-box-shadow: 0px 5px 0px 0px rgba(179,143,57,1);
         box-shadow: 0px 5px 0px 0px rgba(179,143,57,1);
       }
+      
   }
 
 }//-----------------------end of #contact
