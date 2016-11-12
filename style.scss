@@ -256,9 +256,9 @@ img {
     width:90%;
     text-align: justify;
     text-align-last: left;
-    margin: 0 auto 1em 0;
+    margin: 0 auto 1em auto;
 
-    @include tablet{
+    @include tablet {
       font-size:1.5em;
       max-width:500px;
       width:100%;
@@ -306,20 +306,24 @@ img {
   }
 
   ul{
+    display:flex;
+    flex-direction: column;
     float:right;
-    font-size:1.5em;
+    font-size:1.1em;
     line-height: 1.1;
     li{
       align-items:flex-start;
       justify-content: flex-start;
-      .year, .head{
-        font-weight:bold;
-      }
-      .year, .expr{
-        padding:1em;
-      }
-
-
+        .year, .head{
+          font-weight:bold;
+        }
+        .year, .expr{
+          padding:1em;
+        }
+    }
+    @include tablet {
+      font-size:1.5em;
+      flex-direction: row;
     }
   }
 }//-----------------------end of #about
