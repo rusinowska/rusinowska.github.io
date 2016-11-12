@@ -111,10 +111,11 @@ layout: default
   <h3><span class="shadow">Kawa? Współpraca?</span><br>
       Daj mi znać.</h3>
 {% include svg-icons.html %}
-      <form class="flex-column">
-        <input type="text" placeholder="Imię i nazwisko">
-        <input type="mail" placeholder="Adres e-mail">
-        <textarea placeholder="Wiadomość"></textarea>
-        <input type="submit"  class="button">
+      <form class="flex-column" action="https://formspree.io/zosia.rusinowska@gmail.com" method="POST">
+      
+        <input type="text" placeholder="Tytuł" name="_subject">
+        <input type="mail" placeholder="Adres e-mail" name="_replyto">
+        <textarea placeholder="Wiadomość" name="name"></textarea>
+        <input type="submit"  class="button"  value="Submit">
       </form>
 </section>
