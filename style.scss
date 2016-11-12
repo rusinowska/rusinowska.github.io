@@ -456,14 +456,16 @@ img {
         box-shadow: 0px 5px 0px 0px rgba(179,143,57,1);
       }
 
+      input[type="submit"]){
+        box-shadow: none;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        padding:0;
+      }
+
   }
 
-  input[type="submit"]){
-    box-shadow: none;
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    padding:0;
-  }
+
 
 }//-----------------------end of #contact
 
