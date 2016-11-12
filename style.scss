@@ -392,6 +392,13 @@ img {
     .shadow{margin-left:1em;}
   }
 
+  ul.soc{
+    @include tablet {
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
+
   form{
     margin: 3em 0 1em 0;
     font-size:1.2sem;
