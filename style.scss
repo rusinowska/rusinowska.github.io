@@ -19,12 +19,13 @@ body{ background: $back;}
 
 html {
   font-size: 100%;
-  width:100%;
+
 }
 
 body {
   font: 16px/18px $Arcon;
   overflow-x: hidden;
+  width:100vw;
 
 
   @include tablet{
