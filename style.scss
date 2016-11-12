@@ -434,6 +434,7 @@ img {
       -webkit-box-shadow: 0px 2px 0px 0px rgba(179,143,57,1);
       -moz-box-shadow: 0px 2px 0px 0px rgba(179,143,57,1);
       box-shadow: 0px 2px 0px 0px rgba(179,143,57,1);
+      transition: shadow 2s ease;
 
         @include tablet {
           width:410px;
@@ -444,7 +445,7 @@ img {
         -moz-box-shadow: 0px 5px 0px 0px rgba(179,143,57,1);
         box-shadow: 0px 5px 0px 0px rgba(179,143,57,1);
       }
-      
+
   }
 
 }//-----------------------end of #contact
