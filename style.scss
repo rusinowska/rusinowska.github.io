@@ -475,6 +475,11 @@ img {
         box-sizing:border-box;
         cursor: pointer;
         margin:0.5em 0;
+        transition: border 1s ease;
+      }
+
+      input[type="submit"]:hover {
+        border:solid 4px $carmel;
       }
   }
 
