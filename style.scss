@@ -361,6 +361,12 @@ img {
     }
   }
 
+  #line_three{
+    @include tablet {
+      margin-top: 5em;
+    }
+  }
+
   .post{
     h4{
       line-height: 0.9;
