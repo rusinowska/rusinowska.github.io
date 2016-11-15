@@ -359,14 +359,15 @@ img {
         margin-left: -7em;
       }
     }
-  }
+    #line_three{
+      @include tablet {
+        margin-top: 5em;
 
-  #line_three{
-    @include tablet {
-      margin-top: 5em;
-
+      }
     }
   }
+
+
 
   .post{
     h4{
