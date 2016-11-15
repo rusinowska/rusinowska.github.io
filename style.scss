@@ -317,7 +317,7 @@ img {
     display:flex;
     flex-direction: column;
     float:right;
-    font-size:1.1em;
+    font-size:0.9em;
     line-height: 1.1;
     margin-bottom:2em;
     li{
@@ -325,6 +325,7 @@ img {
       justify-content: flex-start;
         .year, .head{
           font-weight:bold;
+          font-size:1.2em;
         }
         .year, .expr{
           padding:0 1em;
