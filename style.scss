@@ -315,7 +315,7 @@ img {
     display:flex;
     flex-direction: column;
     float:right;
-    font-size:0.9em;
+    font-size:1em;
     line-height: 1.1;
     margin-bottom:2em;
     li{
@@ -330,7 +330,7 @@ img {
         }
     }
     @include tablet {
-      font-size:1.5em;
+      font-size:1.2em;
       flex-direction: row;
       justify-content: flex-end;
     }
