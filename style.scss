@@ -282,7 +282,9 @@ img {
       line-height: 1.4;
     }
   }
-  #about-text{}
+  #about-text{
+    align-items:center;
+  }
   a{
     color: $shadow !important;
     border:solid 2px $shadow;
@@ -431,7 +433,7 @@ img {
       width:90%;
       padding:1em 0em 0em 0.5em;
       border: none;
-      margin-bottom:2em;
+      margin-bottom:1em;
       color: $carmel;
       outline: none;
       font-size:1.2em;
@@ -448,7 +450,7 @@ img {
         }
       }
       input[type="text"], input[type="text"]:focus, input[type="text"]:active, input[type="mail"], input[type="mail"]:focus, input[type="mail"]:active {
-        padding:1em 0em 2em 0.5em;
+        padding:1em 0em 1em 0.5em;
       }
       input[type="text"]:active, textarea:active, input[type="text"]:focus, textarea:focus, input[type="mail"]:focus, input[type="mail"]:active  {
         -webkit-box-shadow: 0px 5px 0px 0px rgba(179,143,57,1);
@@ -462,6 +464,7 @@ img {
         -moz-box-shadow: none;
         padding:0;
         width:auto;
+        max-width:150px;
         display:block;
         color: $carmel;
         border:solid 2px $carmel;
@@ -471,6 +474,7 @@ img {
         transition: padding 1s ease;
         box-sizing:border-box;
         cursor: pointer;
+        margin:0.5em 0;
       }
 
   }
