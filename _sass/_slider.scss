@@ -18,8 +18,10 @@
       max-height: 500px;
     }
 
-    a{ display: block;
-      margin: 0 auto;}
+    a{
+      margin: 0 auto;
+    text-decoration:none;
+  align-items:center;}
     img{
       max-height: 300px;
       height:70%;
