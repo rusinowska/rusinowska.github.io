@@ -1,5 +1,5 @@
 $(document).ready(function() {
-   $("html").niceScroll();
+  
 
    $('#slider').lightSlider({
        item:1,
