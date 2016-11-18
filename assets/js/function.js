@@ -5,7 +5,8 @@ $(document).ready(function() {
        item:1,
        loop:true,
        slideMove:0,
-       pager:true
+       pager:true,
+       controls: false
    });
 
 
