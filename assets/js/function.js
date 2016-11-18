@@ -1,4 +1,6 @@
 $(document).ready(function() {
+   $("html").niceScroll();
+
    $('#slider').lightSlider({
        item:1,
        loop:true,
@@ -7,15 +9,5 @@ $(document).ready(function() {
        controls: false
    });
 
-
-   $(function() {
-       $('a.page-scroll').bind('click', function(event) {
-           var $anchor = $(this);
-           $('html, body').stop().animate({
-               scrollTop: $($anchor.attr('href')).offset().top
-           }, 1500, 'easeInOutExpo');
-           event.preventDefault();
-       });
-   });
 
  });
