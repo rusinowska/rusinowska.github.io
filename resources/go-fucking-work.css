@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Unna');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 body {  
-  font-family: 'Unna', serif;
+  font-family: 'Montserrat', sans-serif;
   overflow-y: scroll;
   overflow-x: hidden;
 }
@@ -9,9 +10,9 @@ body {
 #quote {
   font-size: 90px;
   font-weight: 800;
-  text-align: center;
+  text-align: left;
   position: absolute;
-  left: 50%;
+  left: 10%;
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
