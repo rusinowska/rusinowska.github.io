@@ -8,21 +8,11 @@ body {
 }
 
 #quote {
-  font-size: 120px;
-  font-weight: 800;
-  text-align: left;
-  margin: 15% 50px 50px 0;
-  line-height: 1;
-  /* position: absolute;
-  left: 10%;
-  top: 50%; */
-  /* -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%); */
   font-size: 53px;
   font-weight: 900;
   text-align: left;
   margin: 250px 200px 50px 200px;
-  line-height: 1.5;
+  line-height: 1;
   font-family: Futura;
   text-transform: capitalize;
 }
